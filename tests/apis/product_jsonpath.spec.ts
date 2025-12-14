@@ -14,6 +14,7 @@ test('GET -- all the products test @api', async ({ request }) => {
     const response = await request.get(BASE_URL, { headers }); 
     const data = await response.json();
     console.log(data);
+    expect(response.status()).toBe(200);
 
     //get all titles:
     const titles = JSONPath({ path: '$[*].title', json: data });
