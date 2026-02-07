@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7","sample test @sample","Google Chrome","Sat Feb 07 01:45:28 UTC 2026","passed","Sat Feb 07 01:45:28 UTC 2026","","loginpage.spec.ts","",""
+"","2859","verify Invalid login @wip","Google Chrome","Sat Feb 07 01:45:24 UTC 2026","failed","Sat Feb 07 01:45:27 UTC 2026","","loginpage.spec.ts","",""
+"","3245","verify valid login @login","Google Chrome","Sat Feb 07 01:45:20 UTC 2026","failed","Sat Feb 07 01:45:24 UTC 2026","","loginpage.spec.ts","",""
